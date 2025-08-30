@@ -1,36 +1,3 @@
-
-// import React from "react";
-// import { ThemeProvider as StyledThemeProvider } from "styled-components";
-// import { ThemeProvider, useTheme } from "../context/ThemeContext";
-
-// const lightTheme = {
-//   cardBg: "#ffffff",
-//   text: "#000000",   // black text
-// };
-
-// const darkTheme = {
-//   cardBg: "#1f2937", // dark gray background
-//   text: "#ffffff",   // white text
-// };
-
-// const ThemeBridge = ({ children }: { children: React.ReactNode }) => {
-//   const { theme } = useTheme();
-//   return (
-//     <StyledThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
-//       {children}
-//     </StyledThemeProvider>
-//   );
-// };
-
-// export default function ThemeProviderWrapper({ children }: { children: React.ReactNode }) {
-//   return (
-//     <ThemeProvider>
-//       <ThemeBridge>{children}</ThemeBridge>
-//     </ThemeProvider>
-//   );
-// }
-
-
 import React from "react";
 import { ThemeProvider as StyledThemeProvider } from "styled-components";
 import { ThemeProvider, useTheme } from "../context/ThemeContext";
