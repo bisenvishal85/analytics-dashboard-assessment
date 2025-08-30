@@ -212,7 +212,7 @@ function AppInner() {
     <AppContainer>
       {/* Header */}
       <Header>
-        <Title>⚡ MapUp — EV Analytics Dashboard</Title>
+        <Title>⚡EV Analytics Dashboard</Title>
         <ThemeToggle />
       </Header>
 

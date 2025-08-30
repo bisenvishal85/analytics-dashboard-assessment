@@ -69,7 +69,7 @@ export type EVRow = {
 
 export default function DataTable({ rows }: { rows: any[] }) {
   const [page, setPage] = useState(1);
-  const [rowsPerPage, setRowsPerPage] = useState(25); // ✅ rows per page selector
+  const [rowsPerPage, setRowsPerPage] = useState(10); // ✅ rows per page selector
   const [selectedRow, setSelectedRow] = useState<EVRow | null>(null);
 
   const totalPages = Math.max(1, Math.ceil(rows.length / rowsPerPage));
